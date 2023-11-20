@@ -1,6 +1,7 @@
 /**
- * @author hur-admin
  *
+Create a class "Student" which contains name, age, studentId and marks of 5 subjects (Have separate mark class).
+Create a function to display student details
  */
 class Mark
 {
@@ -62,7 +63,8 @@ public class Student {
 		        };
 		// Creating a student
 	        Student student = new Student("John", 20, 1, marksArray);
-	        
+	    
+	    //Display Student Details
 	        student.displayDetails();
 	}
 
